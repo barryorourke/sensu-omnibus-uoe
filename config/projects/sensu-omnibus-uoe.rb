@@ -6,21 +6,24 @@
 
 name "sensu-omnibus-uoe"
 maintainer "barry@barryorourke.uk"
-homepage "https://CHANGE-ME.com"
+homepage "https://barryorourke.uk"
+license "MIT"
 
-# Defaults to C:/sensu-omnibus-uoe on Windows
-# and /opt/sensu-omnibus-uoe on all other platforms
+# /opt/sensu-omnibus-uoe 
 install_dir "#{default_root}/#{name}"
 
-build_version Omnibus::BuildVersion.semver
+skip_transitive_dependency_licensing = true
+
+build_version "0.0.1"
 build_iteration 1
 
 # Creates required build directories
 dependency "preparation"
 
 # override Ruby versions to match Sensu Classic
-override "ruby", version: "2.4.4"
-override "rubygems", version: "2.6.10"
+override "sensu-omnibus-uoe", version: build_version
+override "ruby", version: "2.5.3"
+override "rubygems", version: "2.7.6"
 
 # sensu-omnibus-uoe dependencies/components
 dependency "sensu-omnibus-uoe"

@@ -4,6 +4,8 @@
 # of configurable options, please see the documentation for +omnibus/config.rb+.
 #
 
+append_timestamp false
+
 # Build internally
 # ------------------------------
 # By default, Omnibus uses system folders (like +/var+ and +/opt+) to build and
