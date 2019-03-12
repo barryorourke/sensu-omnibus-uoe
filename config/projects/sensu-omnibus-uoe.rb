@@ -6,7 +6,7 @@
 
 name "sensu-omnibus-uoe"
 maintainer "barry@barryorourke.uk"
-homepage "https://barryorourke.uk"
+homepage "https://github.com/barryorourke/sensu-omnibus-uoe"
 license "MIT"
 
 # /opt/sensu-omnibus-uoe 
@@ -14,7 +14,7 @@ install_dir "#{default_root}/#{name}"
 
 skip_transitive_dependency_licensing = true
 
-build_version "0.1.0"
+build_version "0.2.0"
 build_iteration 1
 
 # Creates required build directories
