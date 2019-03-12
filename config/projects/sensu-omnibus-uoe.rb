@@ -14,7 +14,7 @@ install_dir "#{default_root}/#{name}"
 
 skip_transitive_dependency_licensing = true
 
-build_version "0.0.1"
+build_version "0.1.0"
 build_iteration 1
 
 # Creates required build directories
