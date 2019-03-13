@@ -1,6 +1,11 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+### Added
+
+* Pin gem versions for peace of mind. (@barryorourke)
+
 ## 0.2.0
 ### Added
 
