@@ -2,9 +2,12 @@
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
+
+## 0.3.0
 ### Added
 
 * Pin gem versions for peace of mind. (@barryorourke)
+* Add sensu-plugins-postgres. (@barryorourke)
 
 ## 0.2.0
 ### Added
