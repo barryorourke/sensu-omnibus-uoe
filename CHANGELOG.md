@@ -2,6 +2,13 @@
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
+### Added
+
+* add more of the plugins that UoE use. (@barryorourke)
+
+### Fixed
+
+* Fix pinning of versions. (@barryorourke)
 
 ## 0.3.0
 ### Added
