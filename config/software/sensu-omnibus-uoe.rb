@@ -35,6 +35,10 @@ build do
       " --version '1.0.0'" \
       " --no-ri --no-rdoc", env: env
 
+  gem "install sensu-plugins-hardware" \
+      " --version '1.3.0'" \
+      " --no-ri --no-rdoc", env: env
+
   gem "install sensu-plugins-http" \
       " --version '4.1.0'" \
       " --no-ri --no-rdoc", env: env
@@ -75,6 +79,10 @@ build do
       " --version '3.2.1'" \
       " --no-ri --no-rdoc", env: env
 
+  gem "install sensu-plugins-openldap" \
+      " --version '1.0.1'" \
+      " --no-ri --no-rdoc", env: env
+
   gem "install sensu-plugins-postgres" \
       " --version '1.3.0'" \
       " --no-ri --no-rdoc", env: env
@@ -82,5 +90,25 @@ build do
   gem "install sensu-plugins-process-checks" \
       " --version '3.2.0'" \
       " --no-ri --no-rdoc", env: env
+
+ gem "install sensu-plugins-raid-checks" \
+      " --version '2.0.3'" \
+      " --no-ri --no-rdoc", env: env
+
+  gem "install sensu-plugins-snmp" \
+      " --version '2.1.0'" \
+      " --no-ri --no-rdoc", env: env
+
+  gem "install sensu-plugins-ssl" \
+      " --version '2.0.1'" \
+      " --no-ri --no-rdoc", env: env
+
+  gem "install sensu-plugins-slack" \
+      " --version '3.1.1'" \
+      " --no-ri --no-rdoc", env: env
+
+  gem "install sensu-plugins-systemd" \
+      " --version '0.1.0'" \
+      " --no-ri --no-rdoc", env: env 
 
 end
